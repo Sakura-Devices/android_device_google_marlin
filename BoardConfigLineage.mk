@@ -13,3 +13,7 @@ TARGET_KERNEL_SOURCE := kernel/google/marlin
 BUILD_BROKEN_DUP_RULES := true
 
 TARGET_USE_AOSP_SURFACEFLINGER := true
+
+#Add Sakura Gapps
+SAKURA_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
