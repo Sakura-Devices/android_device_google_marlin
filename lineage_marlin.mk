@@ -29,3 +29,5 @@ $(call inherit-product-if-exists, vendor/google/marlin/marlin-vendor.mk)
 #Sakura Gapps  
 SAKURA_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
+
+SAKURA_OFFICIAL := true
