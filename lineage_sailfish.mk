@@ -24,3 +24,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := google/sailfish/sailfish:8.1.0/OPM1.171019.021/4565141:user/release-keys
 
 $(call inherit-product-if-exists, vendor/google/sailfish/sailfish-vendor.mk)
+
+#Sakura Gapps  
+SAKURA_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
